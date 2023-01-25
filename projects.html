@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="./images/icon.png">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title>Projects</title> --->
+<title>Mehran Elyasi</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-text-container">
+<a href="index.html">Mehran Elyasi</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-category">Home</div>
+<div class="menu-item"><a href="index.html">Main</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="patents.html">Patents</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="honors.html">Honors&nbsp;and&nbsp;Awards</a></div>
+<div class="menu-category">Links</div>
+<div class="menu-item"><a href="https://scholar.google.com/citations?user=e4PWYcUAAAAJ&hl=en&oi=ao">Google&nbsp;Scholar</a></div>
+<div class="menu-item"><a href="https://www.linkedin.com/in/mehran-elyasi/">LinkedIn</a></div>
+<div class="menu-item"><a href="https://twitter.com/mehran_elyasi">Twitter</a></div>
+<div class="menu-item"><a href="https://github.com/melyasi/">GitHub</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+</div>
+<p>This page contains some of my projects.</p>
+<h2>Tensor decomposition for sequence decoding with applications in <br /> de Novo Transcriptome Recovery</h2>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/pic01.png" alt="" width="280px" /></div>
+<div id="text-container"><ul>
+<li><p>Formulated DNA de novo assembly, the method of creating a transcriptome without the aid of a reference genome, as a tensor canonical polyadic decomposition (CPD) problem.</p>
+</li>
+<li><p>Implemented ADMM optimizer to solve the CPD problem and tested the method and reached the average accuracy of \(87.3\%\) for the existing dataset with fixed parameters and using Monto-Carlo experiments.</p>
+</li>
+<li><p>Link to [<a href="https://github.com/melyasi/tensor-sequencing" target=&ldquo;blank&rdquo;>Code</a>], and [<a href="https://github.com/melyasi/tensor-sequencing/report.pdf" target=&ldquo;blank&rdquo;>Report</a>].</p>
+</li>
+</ul>
+</div></div>
+<h2>Robot Arm drawing based on Gaussian process</h2>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/pic02.png" alt="" width="280px" /></div>
+<div id="text-container"><ul>
+<li><p>Modeled the non-linear relation between the joint angles and the joint torques of a robot arm using Gaussian process regression. </p>
+</li>
+<li><p>Ran \(10\)-fold cross-validation and evaluated the ratio of error (difference between the predicted output and the real output) energy to the true energy of output. The average ratio was \(6.02\)% for simulated data and \(20.55\)% for the real robot arm.</p>
+</li>
+<li><p>Link to [<a href="https://github.com/melyasi/gaussian-robot" target=&ldquo;blank&rdquo;>Code</a>], and [<a href="https://github.com/melyasi/gaussian-robot/report.pdf" target=&ldquo;blank&rdquo;>Report</a>].</p>
+</li>
+</ul>
+</div></div>
+<h2>Localization and detection of signal arrays in the presence of colored noise</h2>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/pic02.png" alt="" width="280px" /></div>
+<div id="text-container"><ul>
+<li><p>Developed method for localizing multiple signal sources by determining the direction of arrival (DOA) of signals using the co-variance matrix and minimizing a log-likelihood function. </p>
+</li>
+<li><p>Solved the minimization using methods such as Block Coordinate Descent, and Stochastic Gradient Descent. Evaluated and plotted root mean squared error for different factors including SNR values, initial optimization points, and the number of samples (snapshots).</p>
+</li>
+<li><p>Link to [<a href="https://github.com/melyasi/signal-localizing" target=&ldquo;blank&rdquo;>Code</a>], and [<a href="https://github.com/melyasi/signal-localizing/report.pdf" target=&ldquo;blank&rdquo;>Report</a>].</p>
+</li>
+</ul>
+</div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
